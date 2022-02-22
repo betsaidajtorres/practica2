@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+.cubo{
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width: 450px;
+    border-radius: 10px;
+    margin: 5% auto 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    overflow: hidden;
+}
+.cubo #perfil{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.cubo a{
+    background-color: black;
+    color: black;
+}
+
+.contenedor{
+    width: 70%;
+    height: 50px;
+    margin: 10% auto;
+
+}
+.box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.164);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.boximg img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.boximg{
+    float: left;
+    width: 30%;
+}
+.box p{
+    width: 50%;
+    display: flex;
+    float: right;
+    text-align: left;
+}
+
+
+
